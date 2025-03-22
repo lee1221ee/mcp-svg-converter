@@ -418,7 +418,7 @@ export interface ServerConfig {
 // Default configuration
 export const defaultConfig: ServerConfig = {
   name: "svg-converter",
-  version: "1.0.4",
+  version: "1.0.6",
   
   defaultAllowedDirs: [],
   maxFileSize: 10 * 1024 * 1024, // 10MB

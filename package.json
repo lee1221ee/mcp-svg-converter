@@ -1,6 +1,6 @@
 {
   "name": "mcp-svg-converter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "MCP server for converting SVG to PNG and JPG",
   "type": "module",
   "main": "build/index.js",
@@ -16,7 +16,6 @@
     "build": "tsc && chmod +x build/index.js",
     "start": "node build/index.js",
     "prepublishOnly": "npm run build",
-    "postinstall": "npm run build",
     "dev": "ts-node --project tsconfig.json src/index.ts",
     "test": "ts-node --project tsconfig.json src/test.ts",
     "test:build": "npm run build && node run-test.js"
