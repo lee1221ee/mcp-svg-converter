@@ -37,7 +37,7 @@ console.error(`Allowed directories: ${allowedDirs.join(", ")}`);
 // Create server instance
 const server = new McpServer({
   name: "svg-converter",
-  version: "1.0.0",
+  version: "1.0.4",
 });
 
 // Validate if a path is within allowed directories

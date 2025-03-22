@@ -1,6 +1,6 @@
 {
   "name": "mcp-svg-converter",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "MCP server for converting SVG to PNG and JPG",
   "type": "module",
   "main": "build/index.js",
