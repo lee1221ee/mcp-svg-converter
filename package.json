@@ -1,0 +1,54 @@
+{
+  "name": "mcp-svg-converter",
+  "version": "1.0.1",
+  "description": "MCP server for converting SVG to PNG and JPG",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "mcp-svg-converter": "./build/index.js"
+  },
+  "files": [
+    "build/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "prepublishOnly": "npm run build",
+    "postinstall": "npm run build",
+    "dev": "ts-node --project tsconfig.json src/index.ts",
+    "test": "ts-node --project tsconfig.json src/test.ts",
+    "test:build": "npm run build && node run-test.js"
+  },
+  "keywords": [
+    "mcp",
+    "svg",
+    "converter",
+    "claude"
+  ],
+  "author": "surferdot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mcp-svg-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mcp-svg-converter/issues"
+  },
+  "homepage": "https://github.com/yourusername/mcp-svg-converter#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "sharp": "^0.33.2",
+    "jsdom": "^23.0.1",
+    "zod": "^3.22.4",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.11.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
