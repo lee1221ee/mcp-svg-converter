@@ -3,10 +3,10 @@
     "svg-converter": {
       "command": "node",
       "args": [
-        "C:\\Users\\yourusername\\path\\to\\mcp-svg-converter\\build\\index.js",
-        "C:\\Users\\yourusername\\Desktop\\svg-output",
-        "C:\\Users\\yourusername\\Desktop",
-        "C:\\Users\\yourusername\\Downloads"
+        "C:\\Users\\surferdot\\path\\to\\mcp-svg-converter\\build\\index.js",
+        "C:\\Users\\surferdot\\Desktop\\svg-output",
+        "C:\\Users\\surferdot\\Desktop",
+        "C:\\Users\\surferdot\\Downloads"
       ]
     }
   }

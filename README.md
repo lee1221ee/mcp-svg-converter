@@ -43,7 +43,7 @@ mcp-svg-converter /path/to/allowed/directory
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/yourusername/mcp-svg-converter.git
+   git clone https://github.com/surferdot/mcp-svg-converter.git
    cd mcp-svg-converter
    ```
 
@@ -188,7 +188,7 @@ mcp-svg-converter /path/to/allowed/directory
 
 1. 克隆此仓库
    ```bash
-   git clone https://github.com/yourusername/mcp-svg-converter.git
+   git clone https://github.com/surferdot/mcp-svg-converter.git
    cd mcp-svg-converter
    ```
 

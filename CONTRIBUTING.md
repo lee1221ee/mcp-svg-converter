@@ -7,7 +7,7 @@ Thank you for your interest in contributing to SVG Converter MCP Server! We welc
 1. Fork the repository on GitHub
 2. Clone your fork locally
    ```bash
-   git clone https://github.com/yourusername/mcp-svg-converter.git
+   git clone https://github.com/surferdot/mcp-svg-converter.git
    cd mcp-svg-converter
    ```
 3. Install dependencies
