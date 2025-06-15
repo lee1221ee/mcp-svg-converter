@@ -20,6 +20,13 @@
     "test": "ts-node --project tsconfig.json src/test.ts",
     "test:build": "npm run build && node run-test.js"
   },
+  "os": [
+    "linux",
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
   "keywords": [
     "mcp",
     "svg",
